@@ -99,6 +99,13 @@
     font-size: 30px;
     margin-right: 20px;
 }
+marquee{
+    margin-top: 20px;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
 .nav-item{
     display: flex;
     align-items: center;
@@ -281,7 +288,7 @@
     width: 100%;
     border-radius: 15px;
 }
-#hidden{
+.hidden{
     display: none;
 }
 .story2-img{
@@ -412,6 +419,9 @@
     .menu-icon{
         display: block;
         
+    }
+    marquee{
+        display: block;
     }
 /* Banner Responsive  */
     .banner-container{
