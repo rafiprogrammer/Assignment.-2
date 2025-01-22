@@ -74,6 +74,10 @@
 
 
 /* Navber Start  */
+.nav{
+    max-width: 1366px;
+    margin: 0 auto;
+}
 .navber{
     display: flex;
     justify-content: space-between;
@@ -123,6 +127,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 46px;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 .banner-info{
     max-width: 640px;
@@ -323,12 +329,15 @@
 /* Footer Start  */
 .footer-main{
     background-color: #01ACFD;
-    height: 487px;
-    padding-top: 115px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 .foot-container{
     display: flex;
     justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 .foot1-logo{
     display: flex;
@@ -352,16 +361,20 @@
     max-width: 375px;
     color: white;
     font-size: 1.1rem;
+    margin-bottom: 29px;
+    padding-left: 10px;
 }
 .foot2-title{
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 29px;
     color: white;
+    padding-left: 10px;
 }
 .foot2-link li{
     list-style: none;
     margin-bottom: 18px;
+    padding-left: 10px;
 }
 .foot2-link a{
     text-decoration: none;
@@ -373,7 +386,9 @@
     color: white;
     font-size: 24px;
     margin-bottom: 29px;
- 
+}
+.foot3{
+    padding-left: 10px;
 }
 /* Footer End */
 
@@ -447,12 +462,5 @@
     }
     .story-view-btn button{
         margin: 30px 0px 37px 0px;
-    }
-}
-/* Tab Responsive  */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-
-    .banner-container{
-        flex-direction: column-reverse;
-    }
+    } 
 }
