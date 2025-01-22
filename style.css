@@ -69,7 +69,7 @@
 /* Sheared Style End  */
 
 
-                            /* Project Start  */
+                                                /* Project Start  */
 
 
 
@@ -126,6 +126,14 @@ marquee{
     border: none;
     background-color: #FEA301;
     color: white;
+    transform: scale(1.03);
+    transition: all 0.3s ease-in;
+}
+.nav-btn button:hover{
+    background-color: transparent;
+    border: 2px solid ;
+    color: black;
+    font-weight: bold;
 }
 /* Navber End  */
 /* Banner Section Start  */
@@ -158,6 +166,19 @@ marquee{
     background-color: black;
     color: white;
     margin-top: 20px;
+    transition: all 0.3s ease-in;
+}
+.banner-btn button:hover{
+    background-color: #8700FF;
+    box-shadow: 0px 0px 10px #8700FF;
+    transform: scale(1.03);
+}
+.banner-img{
+    transition: all 0.3s linear;
+}
+
+.banner-img:hover{
+    transform: scale(1.03);
 }
 /* Banner Section End  */
 /* Curriculum Start (CCL) */
@@ -189,6 +210,10 @@ marquee{
     height: 447px;
     text-align: center;
     border-radius: 18.86px;
+    transition: all 0.3s ease;
+}
+.ccl-card:hover{
+    transform: scale(1.03);
 }
 .ccl-card img{
     margin: 48px 0px 29px 0px;
@@ -216,17 +241,19 @@ marquee{
     border-radius: 30px;
     padding: 17px 22px;
     color: white;
+    transition: all 0.3s linear;
+}
+.ccl-icon i:hover{
+    background-color: #666666;
 }
 /* Curriculum End  */
 /* Story Start  */
-.bg-overlay img{
-    width: 100%;
-    position: absolute;
- /* background: linear-gradient(180deg, #ffffff 100%, #FEA301 30%); */
-}
-.story-container{
-    position: relative;
-}
+ .bg-overlay{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgb(254, 163, 1, 0.3) 0%, #FFFFFF 100%);
+ }
 .story-title{
     padding: 56px 0px 75px 0px;
     text-align: center;
@@ -241,8 +268,12 @@ marquee{
 .story-item1{
     max-width: 507px;
     height: 592px;
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
+    border-radius: 16px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.story-item1:hover{
+    transform: scale(1.03);
 }
 .story1-img{
     width: 100%;
@@ -287,6 +318,11 @@ marquee{
 .story-item2 .box1{
     width: 100%;
     border-radius: 15px;
+    background-color: white;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.story-item2 .box1:hover{
+    transform: scale(1.03);
 }
 .hidden{
     display: none;
@@ -331,11 +367,17 @@ marquee{
     margin: 75px 0px 56px 0px;
     padding: 9px 45px;
     border-radius: 12px;
+    transition: all 0.3s linear;
+    border: none;
+}
+.story-view-btn button:hover{
+    background-color: #a5a4a4;
+   
 }
 /* Story End  */
 /* Footer Start  */
 .footer-main{
-    background-color: #01ACFD;
+    background-color: #01adfdb4;
     height: 100%;
     padding-top: 50px;
     padding-bottom: 60px;
