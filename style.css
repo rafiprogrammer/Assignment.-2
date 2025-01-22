@@ -6,7 +6,7 @@
     font-family: "Quicksand", serif;
 }
 /* Sheared Style  */
-.width{
+.margin{
     max-width: 1366px;
     margin: 0 auto;
 }
@@ -89,6 +89,9 @@
     font-size: 2rem;
     font-weight: 700;
     color: black;
+}
+.menu-icon{
+    display: none;
 }
 .nav-item{
     display: flex;
@@ -242,7 +245,6 @@
     padding: 13px 17px;
     color: white;
     border: none;
-    /* margin-top: -100px; */
     position: relative;
     bottom: 30px;
     left: 50px;
