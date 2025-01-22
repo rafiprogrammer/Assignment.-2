@@ -92,6 +92,8 @@
 }
 .menu-icon{
     display: none;
+    font-size: 30px;
+    margin-right: 20px;
 }
 .nav-item{
     display: flex;
@@ -142,6 +144,7 @@
     border: none;
     background-color: black;
     color: white;
+    margin-top: 20px;
 }
 /* Banner Section End  */
 /* Curriculum Start (CCL) */
@@ -321,11 +324,11 @@
 .footer-main{
     background-color: #01ACFD;
     height: 487px;
+    padding-top: 115px;
 }
 .foot-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .foot1-logo{
     display: flex;
@@ -350,12 +353,34 @@
     color: white;
     font-size: 1.1rem;
 }
+.foot2-title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 29px;
+    color: white;
+}
+.foot2-link li{
+    list-style: none;
+    margin-bottom: 18px;
+}
+.foot2-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.foot3-title{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 29px;
+ 
+}
 /* Footer End */
 
      /* Responsive Start  */
         
 @media screen and (max-width: 576px) {
-    .navber, .banner-container, .ccl-item{
+    .navber, .banner-container, .ccl-item, .foot-container{
         flex-direction: column;
         padding: 0px 15px;
     }
@@ -367,6 +392,10 @@
         justify-content: space-between;
         border-bottom: 1px solid #FEA301;
         padding-bottom: 12px;
+        
+    }
+    .menu-icon{
+        display: block;
         
     }
 /* Banner Responsive  */
@@ -385,6 +414,7 @@
     }
     .banner-img img{
         width: 100%;
+        margin-top: 50px;
     }
 /* Curriculum resoposive  */
     .ccl-title{
